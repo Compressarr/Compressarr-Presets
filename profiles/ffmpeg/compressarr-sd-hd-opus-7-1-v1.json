@@ -1,0 +1,32 @@
+{
+  "name": "Compressarr SD-HD Opus 7.1 v1",
+  "description": "The same as Compressarr SD-HD (x265 10-bit, crop, English subtitles and chapters) but the first English audio track is encoded as Opus, which carries 7.1 surround (E-AC3 stops at 5.1). Opus is not played by every TV, soundbar or media box - if yours cannot, use Compressarr SD-HD instead.",
+  "container": "mkv",
+  "videoCodec": "libx265",
+  "preset": "veryfast",
+  "tune": "",
+  "videoProfile": "main10",
+  "pixFmt": "yuv420p10le",
+  "qualityMode": "quality",
+  "quality": 24,
+  "framerateMode": "vfr",
+  "deinterlace": "auto",
+  "crop": "auto",
+  "audioLanguages": [
+    "eng",
+    "und",
+    "any"
+  ],
+  "audioTracks": "first",
+  "audioMode": "encode",
+  "passthroughCodecs": [],
+  "audioCodec": "opus",
+  "audioBitrateKbps": 512,
+  "audioMixdown": "7.1",
+  "subtitleLanguages": [
+    "eng"
+  ],
+  "subtitleTracks": "all",
+  "chapters": true,
+  "fallbackHandBrakePreset": ""
+}

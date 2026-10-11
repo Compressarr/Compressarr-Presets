@@ -55,6 +55,7 @@ CHANGELOG.md                one line per published version
 | Compressarr HD Quality | HandBrake | 1080p and below, higher quality than SD-HD |
 | Compressarr Compatibility (H.264) | HandBrake | SDR content for old players that cannot play H.265 |
 | Compressarr AV1 (NVENC) | ffmpeg | RTX 40-series (or newer) GPUs: AV1 at GPU speed |
+| Compressarr SD-HD Opus 7.1 | HandBrake and ffmpeg | Like SD-HD, but Opus audio so 7.1 surround is kept (E-AC3 stops at 5.1). Not every TV or box plays Opus |
 
 ## Licence
 

@@ -74,6 +74,40 @@
       "requires": [
         "av1_nvenc"
       ]
+    },
+    {
+      "family": "Compressarr SD-HD Opus 7.1",
+      "version": 1,
+      "engine": "handbrake",
+      "file": "profiles/handbrake/compressarr-sd-hd-opus-7-1-v1.json",
+      "sha256": "92ea678b33eeb6e609cee0cb54d8d58e58c16772c916dca24e895ddde5d33e8e",
+      "minAppVersion": "2.2.0",
+      "description": "SD-HD with Opus audio so 7.1 surround is kept (E-AC3 stops at 5.1). RF 24, preset veryfast. Not every TV or box plays Opus.",
+      "changelog": "First release.",
+      "published": "2026-10-11",
+      "author": "MrWizardCT",
+      "sourceUrl": null,
+      "deprecated": null,
+      "requires": [
+        "x265"
+      ]
+    },
+    {
+      "family": "Compressarr SD-HD Opus 7.1",
+      "version": 1,
+      "engine": "ffmpeg",
+      "file": "profiles/ffmpeg/compressarr-sd-hd-opus-7-1-v1.json",
+      "sha256": "5d8fbe9b8060e0fd1fe12304d7950bae15bf305878456c5282c0a000c49e469b",
+      "minAppVersion": "2.2.0",
+      "description": "SD-HD with Opus audio so 7.1 surround is kept (E-AC3 stops at 5.1). Not every TV or box plays Opus.",
+      "changelog": "First release.",
+      "published": "2026-10-11",
+      "author": "MrWizardCT",
+      "sourceUrl": null,
+      "deprecated": null,
+      "requires": [
+        "libopus"
+      ]
     }
   ]
 }
