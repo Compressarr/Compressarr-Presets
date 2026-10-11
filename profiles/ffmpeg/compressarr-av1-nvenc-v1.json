@@ -1,0 +1,41 @@
+{
+  "name": "Compressarr AV1 (NVENC) v1",
+  "description": "AV1 10-bit on an NVIDIA GPU (NVENC): about the quality of HEVC NVENC (fast) in 7 to 20 percent less space, at GPU speed. Needs an RTX 40-series or newer GPU and an ffmpeg build with NVENC. Keeps every English audio track untouched when it can be copied. Dolby Vision and HDR10+ files are refused (ffmpeg would drop that metadata); use a HandBrake lane for those.",
+  "container": "mkv",
+  "videoCodec": "av1_nvenc",
+  "preset": "p5",
+  "tune": "",
+  "videoProfile": "",
+  "pixFmt": "p010le",
+  "qualityMode": "quality",
+  "quality": 34,
+  "framerateMode": "vfr",
+  "deinterlace": "auto",
+  "crop": "auto",
+  "audioLanguages": [
+    "eng"
+  ],
+  "audioTracks": "all",
+  "audioMode": "passthru",
+  "passthroughCodecs": [
+    "aac",
+    "ac3",
+    "eac3",
+    "dts",
+    "dtshd",
+    "truehd",
+    "flac",
+    "mp3"
+  ],
+  "audioCodec": "eac3",
+  "audioBitrateKbps": 640,
+  "audioMixdown": "7.1",
+  "subtitleLanguages": [
+    "eng"
+  ],
+  "subtitleTracks": "all",
+  "chapters": true,
+  "fallbackHandBrakePreset": "",
+  "allowDroppingDynamicHdr": false,
+  "extraArgs": ""
+}

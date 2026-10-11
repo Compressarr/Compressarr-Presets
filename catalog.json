@@ -1,0 +1,79 @@
+{
+  "schema": 1,
+  "catalog": {
+    "name": "Compressarr Presets",
+    "maintainer": "MrWizardCT",
+    "url": "https://github.com/MrWizardCT/Compressarr-Presets"
+  },
+  "updated": "2026-10-11",
+  "profiles": [
+    {
+      "family": "Compressarr UHD HEVC (HDR)",
+      "version": 1,
+      "engine": "handbrake",
+      "file": "profiles/handbrake/compressarr-uhd-hevc-hdr-v1.json",
+      "sha256": "02e88a92d92510e5cf36b6f915505ad515888e7df958ed31ff7d42a56a10fac0",
+      "minAppVersion": "2.2.0",
+      "description": "x265 10-bit for UHD HDR: HDR10, HDR10+ and Dolby Vision kept; every English audio track passed through. RF 22, preset fast.",
+      "changelog": "First release.",
+      "published": "2026-10-11",
+      "author": "MrWizardCT",
+      "sourceUrl": null,
+      "deprecated": null,
+      "requires": [
+        "x265"
+      ]
+    },
+    {
+      "family": "Compressarr HD Quality",
+      "version": 1,
+      "engine": "handbrake",
+      "file": "profiles/handbrake/compressarr-hd-quality-v1.json",
+      "sha256": "fa8fde0424ef1af6639819f78c16602eca99e015389f2c60b7fafe0a77dadbfb",
+      "minAppVersion": "2.2.0",
+      "description": "A higher-quality x265 10-bit than SD-HD for 1080p and below, same E-AC3 audio. RF 20, preset fast.",
+      "changelog": "First release.",
+      "published": "2026-10-11",
+      "author": "MrWizardCT",
+      "sourceUrl": null,
+      "deprecated": null,
+      "requires": [
+        "x265"
+      ]
+    },
+    {
+      "family": "Compressarr Compatibility (H.264)",
+      "version": 1,
+      "engine": "handbrake",
+      "file": "profiles/handbrake/compressarr-compatibility-h264-v1.json",
+      "sha256": "3d119aa49b4a05512720c6e720f337f0005d4a2ec50801c1c1537f2f90e6e8cf",
+      "minAppVersion": "2.2.0",
+      "description": "H.264 8-bit in MP4 with AAC audio and a 30 fps cap, for devices that cannot play H.265. SDR only.",
+      "changelog": "First release.",
+      "published": "2026-10-11",
+      "author": "MrWizardCT",
+      "sourceUrl": null,
+      "deprecated": null,
+      "requires": [
+        "x264"
+      ]
+    },
+    {
+      "family": "Compressarr AV1 (NVENC)",
+      "version": 1,
+      "engine": "ffmpeg",
+      "file": "profiles/ffmpeg/compressarr-av1-nvenc-v1.json",
+      "sha256": "efd402ab6cf809d2b780bc33450081f73cf7d773e71f945891fea809d461bdbe",
+      "minAppVersion": "2.2.0",
+      "description": "AV1 10-bit on an RTX 40-series (or newer) GPU. cq 34, preset p5: about the quality of HEVC NVENC (fast) in 7 to 20 percent less space. Dolby Vision / HDR10+ files are refused.",
+      "changelog": "First release.",
+      "published": "2026-10-11",
+      "author": "MrWizardCT",
+      "sourceUrl": null,
+      "deprecated": null,
+      "requires": [
+        "av1_nvenc"
+      ]
+    }
+  ]
+}
