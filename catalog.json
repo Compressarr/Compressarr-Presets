@@ -2,7 +2,7 @@
   "schema": 1,
   "catalog": {
     "name": "Compressarr Presets",
-    "maintainer": "MrWizardCT",
+    "maintainer": "Compressarr",
     "url": "https://github.com/Compressarr/Compressarr-Presets"
   },
   "updated": "2026-10-11",
@@ -17,7 +17,7 @@
       "description": "x265 10-bit for UHD HDR: HDR10, HDR10+ and Dolby Vision kept; every English audio track passed through. RF 22, preset fast.",
       "changelog": "First release.",
       "published": "2026-10-11",
-      "author": "MrWizardCT",
+      "author": "Compressarr",
       "sourceUrl": null,
       "deprecated": null,
       "requires": [
@@ -34,7 +34,7 @@
       "description": "A higher-quality x265 10-bit than SD-HD for 1080p and below, same E-AC3 audio. RF 20, preset fast.",
       "changelog": "First release.",
       "published": "2026-10-11",
-      "author": "MrWizardCT",
+      "author": "Compressarr",
       "sourceUrl": null,
       "deprecated": null,
       "requires": [
@@ -51,7 +51,7 @@
       "description": "H.264 8-bit in MP4 with AAC audio and a 30 fps cap, for devices that cannot play H.265. SDR only.",
       "changelog": "First release.",
       "published": "2026-10-11",
-      "author": "MrWizardCT",
+      "author": "Compressarr",
       "sourceUrl": null,
       "deprecated": null,
       "requires": [
@@ -68,7 +68,7 @@
       "description": "AV1 10-bit on an RTX 40-series (or newer) GPU. cq 34, preset p5: about the quality of HEVC NVENC (fast) in 7 to 20 percent less space. Dolby Vision / HDR10+ files are refused.",
       "changelog": "First release.",
       "published": "2026-10-11",
-      "author": "MrWizardCT",
+      "author": "Compressarr",
       "sourceUrl": null,
       "deprecated": null,
       "requires": [
@@ -85,7 +85,7 @@
       "description": "SD-HD with Opus audio so 7.1 surround is kept (E-AC3 stops at 5.1). RF 24, preset veryfast. Not every TV or box plays Opus.",
       "changelog": "First release.",
       "published": "2026-10-11",
-      "author": "MrWizardCT",
+      "author": "Compressarr",
       "sourceUrl": null,
       "deprecated": null,
       "requires": [
@@ -102,7 +102,7 @@
       "description": "SD-HD with Opus audio so 7.1 surround is kept (E-AC3 stops at 5.1). Not every TV or box plays Opus.",
       "changelog": "First release.",
       "published": "2026-10-11",
-      "author": "MrWizardCT",
+      "author": "Compressarr",
       "sourceUrl": null,
       "deprecated": null,
       "requires": [
