@@ -1,6 +1,6 @@
 # Compressarr Presets
 
-The official catalog of extra encoding profiles for [Compressarr](https://github.com/MrWizardCT/Compressarr) 2.2 and later.
+The official catalog of extra encoding profiles for [Compressarr](https://github.com/Compressarr/Compressarr) 2.2 and later.
 Compressarr reads this repository (from its **Profiles > Import > From Catalog** tab) so new profiles can be added without a new
 Compressarr release.
 
