@@ -5,7 +5,7 @@
     "maintainer": "Compressarr",
     "url": "https://github.com/Compressarr/Compressarr-Presets"
   },
-  "updated": "2026-10-12",
+  "updated": "2026-11-07",
   "profiles": [
     {
       "family": "Compressarr UHD HEVC (HDR)",
@@ -107,6 +107,23 @@
       "deprecated": null,
       "requires": [
         "libopus"
+      ]
+    },
+    {
+      "family": "Compressarr SD-HD (No Cropping)",
+      "version": 1,
+      "engine": "handbrake",
+      "file": "profiles/handbrake/compressarr-sd-hd-no-cropping-v1.json",
+      "sha256": "9068aba7bd33fed5c7bdc368fcb106c90f3fe630dd3e1772f86ab7d143537f47",
+      "minAppVersion": "2.2.0",
+      "description": "SD-HD without automatic cropping: black bars are kept. x265 10-bit, RF 24, preset veryfast, E-AC3 audio up to 5.1.",
+      "changelog": "First release.",
+      "published": "2026-11-07",
+      "author": "Compressarr",
+      "sourceUrl": null,
+      "deprecated": null,
+      "requires": [
+        "x265"
       ]
     }
   ]
