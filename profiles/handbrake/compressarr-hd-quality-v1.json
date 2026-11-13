@@ -86,7 +86,7 @@
       "PicturePadLeft": 0,
       "PicturePadRight": 0,
       "PicturePadColor": "black",
-      "PresetDescription": "A higher-quality H.265 10-bit than Compressarr SD-HD, with the same E-AC3 audio mixdown supporting 7.1 channels: more detail kept, larger files. Aimed at 1080p and below. Also crops video to actual size removing black bars. Includes English subtitles and chapter markers.",
+      "PresetDescription": "A higher-quality H.265 10-bit than Compressarr SD-HD, with the same E-AC3 audio mixdown supporting 5.1 channels: more detail kept, larger files. Aimed at 1080p and below. Also crops video to actual size removing black bars. Includes English subtitles and chapter markers.",
       "PresetName": "Compressarr HD Quality v1",
       "Type": 1,
       "SubtitleAddCC": false,

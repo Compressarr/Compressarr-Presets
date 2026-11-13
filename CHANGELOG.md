@@ -11,10 +11,15 @@ One line per published profile version. Published versions never change; a chang
 
 - **Compressarr SD-HD Opus 7.1 v1** (HandBrake and ffmpeg): the same as Compressarr SD-HD but the first English audio track is Opus 7.1 at 512 kbps, so 7.1 surround is kept (E-AC3 cannot carry it). Opus is not played by every TV or box.
 
+## 2026-10-12
+
+- Metadata only: the author and maintainer shown for every profile are now **Compressarr**. No profile changed; every profile file and checksum is exactly as published.
+
 ## 2026-11-07
 
 - **Compressarr SD-HD (No Cropping) v1** (HandBrake): the same as the built-in Compressarr SD-HD (x265 10-bit, RF 24, preset veryfast, E-AC3 audio up to 5.1, English subtitles and chapters) but with automatic cropping turned off, so black bars are kept.
 
-## 2026-10-12
+## 2026-11-13
 
-- Metadata only: the author and maintainer shown for every profile are now **Compressarr**. No profile changed; every profile file and checksum is exactly as published.
+- **Compressarr SD-HD (No Cropping) v1** (ffmpeg): the ffmpeg counterpart of the HandBrake profile of the same name: the built-in ffmpeg Compressarr SD-HD (x265 10-bit, quality 24, preset veryfast, E-AC3 audio up to 5.1, English subtitles and chapters) with automatic cropping off, so black bars are kept.
+- **Compressarr HD Quality v1** (HandBrake): wording only. The description said the E-AC3 audio supports 7.1 channels; E-AC3 carries at most 5.1. The profile itself is unchanged (the file's checksum in the catalog changed because the text did).

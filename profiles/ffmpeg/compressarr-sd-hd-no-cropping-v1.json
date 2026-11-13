@@ -1,0 +1,32 @@
+{
+  "name": "Compressarr SD-HD (No Cropping) v1",
+  "description": "The same as Compressarr SD-HD (x265 10-bit with E-AC3 audio up to 5.1, English subtitles and chapters) but without automatic cropping: the video keeps its black bars.",
+  "container": "mkv",
+  "videoCodec": "libx265",
+  "preset": "veryfast",
+  "tune": "",
+  "videoProfile": "main10",
+  "pixFmt": "yuv420p10le",
+  "qualityMode": "quality",
+  "quality": 24,
+  "framerateMode": "vfr",
+  "deinterlace": "auto",
+  "crop": "off",
+  "audioLanguages": [
+    "eng",
+    "und",
+    "any"
+  ],
+  "audioTracks": "first",
+  "audioMode": "encode",
+  "passthroughCodecs": [],
+  "audioCodec": "eac3",
+  "audioBitrateKbps": 512,
+  "audioMixdown": "5.1",
+  "subtitleLanguages": [
+    "eng"
+  ],
+  "subtitleTracks": "all",
+  "chapters": true,
+  "fallbackHandBrakePreset": ""
+}

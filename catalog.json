@@ -5,7 +5,7 @@
     "maintainer": "Compressarr",
     "url": "https://github.com/Compressarr/Compressarr-Presets"
   },
-  "updated": "2026-11-07",
+  "updated": "2026-11-13",
   "profiles": [
     {
       "family": "Compressarr UHD HEVC (HDR)",
@@ -29,7 +29,7 @@
       "version": 1,
       "engine": "handbrake",
       "file": "profiles/handbrake/compressarr-hd-quality-v1.json",
-      "sha256": "fa8fde0424ef1af6639819f78c16602eca99e015389f2c60b7fafe0a77dadbfb",
+      "sha256": "83f56a6af3547ede49bfadccb7eba6f2edd14510db673a7500ac3dc62ee3e67d",
       "minAppVersion": "2.2.0",
       "description": "A higher-quality x265 10-bit than SD-HD for 1080p and below, same E-AC3 audio. RF 20, preset fast.",
       "changelog": "First release.",
@@ -119,6 +119,23 @@
       "description": "SD-HD without automatic cropping: black bars are kept. x265 10-bit, RF 24, preset veryfast, E-AC3 audio up to 5.1.",
       "changelog": "First release.",
       "published": "2026-11-07",
+      "author": "Compressarr",
+      "sourceUrl": null,
+      "deprecated": null,
+      "requires": [
+        "x265"
+      ]
+    },
+    {
+      "family": "Compressarr SD-HD (No Cropping)",
+      "version": 1,
+      "engine": "ffmpeg",
+      "file": "profiles/ffmpeg/compressarr-sd-hd-no-cropping-v1.json",
+      "sha256": "136227faf52ba8b3570a63db0b31409a3d23f472d44ed5118a20d8a888e349ba",
+      "minAppVersion": "2.2.0",
+      "description": "SD-HD without automatic cropping: black bars are kept. x265 10-bit, quality 24, preset veryfast, E-AC3 audio up to 5.1.",
+      "changelog": "First release.",
+      "published": "2026-11-13",
       "author": "Compressarr",
       "sourceUrl": null,
       "deprecated": null,
